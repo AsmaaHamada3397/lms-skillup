@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme{
+    --color-colorPrimary: #4F39F6; 
+    --font-family: 'Plus Jakarta Sans', sans-serif;
+    --color-textColor: #0f172b;
+    --color-textColor2: #62748e;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+.navItems{
+    @apply font-semibold text-sm leading-5 text-[#45556C] hover:text-colorPrimary hover:cursor-pointer;
+}
+

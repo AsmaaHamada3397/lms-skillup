@@ -1,0 +1,1 @@
+export const containerStyle = "container px-8 ";
