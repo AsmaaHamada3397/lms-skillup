@@ -10,7 +10,7 @@ export default function SectionOne() {
 
   return (
     <div className="flex justify-center items-center">
-      <div className={`${containerStyle} py-24`}>
+      <div className={`${containerStyle} py-16 lg:py-24`}>
         <div className="flex items-center justify-between flex-col md:flex-row gap-12 lg:gap-0">
           <div className="">
             <div className="flex items-center justify-center gap-2 rounded-full px-3 py-1.5 bg-[#EEF2FF] border-[0.69px] border-[#e0e7ff] w-fit">

@@ -14,7 +14,7 @@ import ahmed from "../assets/images/Image (Ahmed Mohamed).png";
 export default function SectionThree() {
   return (
     <div className="flex justify-center items-center">
-      <div className={`${containerStyle} py-20`}>
+      <div className={`${containerStyle} py-16 lg:py-20`}>
         <h1 className="text-textColor font-bold text-[30px] lg:text-[38px] leading-[47.5px]">
           Featured Courses
         </h1>

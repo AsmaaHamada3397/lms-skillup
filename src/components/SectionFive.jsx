@@ -10,7 +10,7 @@ import { IoBookOutline } from "react-icons/io5";
 export default function SectionFive() {
   return (
     <div className="flex justify-center items-center">
-      <div className={`${containerStyle} py-20`}>
+      <div className={`${containerStyle} py-16 lg:py-20`}>
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 lg:gap-0">
           <h1 className="text-textColor font-bold text-[30px] leading-[37.5px] lg:text-[38px] lg:leading-[47.5px]">
             Learn From Experienced Instructors

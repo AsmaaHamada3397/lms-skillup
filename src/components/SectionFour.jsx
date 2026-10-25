@@ -8,7 +8,7 @@ export default function SectionFour() {
   return (
     <div className="bg-[#F8FAFC] flex justify-center items-center">
       <div
-        className={`${containerStyle} py-20 flex flex-col items-center justify-center`}
+        className={`${containerStyle} py-16 lg:py-20 flex flex-col items-center justify-center`}
       >
         <p className="font-bold text-[30px] leading-[37.5px] text-textColor lg:text-[38px] lg:leading-[47.5px]">
           Why Learn With Us

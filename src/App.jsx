@@ -4,6 +4,8 @@ import SectionThree from "./components/SectionThree";
 import SectionTwo from "./components/SectionTwo";
 import SectionFour from "./components/SectionFour";
 import SectionFive from "./components/SectionFive";
+import SectionSix from "./components/SectionSix";
+
 const App = () => {
   return (
     <div data-theme="light">
@@ -13,6 +15,7 @@ const App = () => {
       <SectionThree/>
       <SectionFour/>
       <SectionFive/>
+      <SectionSix/>
     </div>
   );
 };
