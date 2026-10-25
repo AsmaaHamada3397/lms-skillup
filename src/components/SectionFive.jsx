@@ -3,7 +3,7 @@ import { containerStyle } from "../assets/styles/Style";
 import { GoChevronRight } from "react-icons/go";
 import Ahmed from "../assets/images/Image (Ahmed Mohamed) (1).png";
 import Sara from "../assets/images/Image (Sara Ali) (1).png";
-import Omar from "../assets/images/Image (Omar Ali) (1).png";
+import Omar from "../assets/images/Image (Omar Hassan) (1).png";
 
 import { IoBookOutline } from "react-icons/io5";
 
@@ -40,16 +40,16 @@ export default function SectionFive() {
                 of experience building dynamic websites and teaching practical
                 web
               </p>
-              <div className="pt-4 flex gap-1.5">
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+              <div className="pt-4 flex gap-1.5 flex-wrap">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   WordPress
                 </span>
 
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   Elementor
                 </span>
 
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   ACF
                 </span>
               </div>
@@ -90,20 +90,20 @@ export default function SectionFive() {
                 Sara is a senior frontend developer with six years of experience
                 in modern web technologies. She specializes in building
               </p>
-              <div className="pt-4 flex gap-1.5">
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+              <div className="pt-4 flex gap-1.5 flex-wrap">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   HTML
                 </span>
 
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   CSS
                 </span>
 
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   JavaScript
                 </span>
                 
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   React
                 </span>
               </div>
@@ -143,16 +143,16 @@ export default function SectionFive() {
               <p className="text-sm leading-[22.75px] text-textColor2">
                Omar is a certified business and leadership trainer with nine years of experience working with teams and organizations across the region. 
               </p>
-              <div className="pt-4 flex gap-1.5">
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+              <div className="pt-4 flex gap-1.5 flex-wrap">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   HLeadership
                 </span>
 
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   Communication
                 </span>
 
-                <span class="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
+                <span className="bg-[#f1f5f9] border-[0.69px] border-[#e2e8f0] px-2.5 py-1 rounded-lg">
                   Entrepreneurship
                 </span>
               </div>

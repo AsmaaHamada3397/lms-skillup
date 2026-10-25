@@ -28,7 +28,7 @@ export default function SectionThree() {
         </div>
 
         <div className="pt-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div class="card bg-white shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A] rounded-[14px]">
+          <div className="card bg-white shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A] rounded-[14px]">
             <figure>
               <img
                 src={course3}
@@ -37,17 +37,17 @@ export default function SectionThree() {
               />
             </figure>
 
-            <div class="p-5 flex flex-col">
+            <div className="p-5 flex flex-col">
               <div className="flex gap-2 pb-3">
-                <div class="badge rounded-full text-[#0069A8] bg-[#DFF2FE]">
+                <div className="badge rounded-full text-[#0069A8] bg-[#DFF2FE]">
                   WordPress
                 </div>
-                <div class="badge rounded-full text-[#008236] bg-[#dcfce7]">
+                <div className="badge rounded-full text-[#008236] bg-[#dcfce7]">
                   Beginner
                 </div>
               </div>
 
-              <h2 class=" font-bold leading-5.5 text-textColor pb-2">
+              <h2 className=" font-bold leading-5.5 text-textColor pb-2">
                 WordPress Website Development
               </h2>
               <p className="text-sm text-textColor2 leading-[22.75px] pb-4">
@@ -90,7 +90,7 @@ export default function SectionThree() {
             </div>
           </div>
 
-          <div class="card bg-white shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A] rounded-[14px]">
+          <div className="card bg-white shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A] rounded-[14px]">
             <figure>
               <img
                 src={course2}
@@ -99,17 +99,17 @@ export default function SectionThree() {
               />
             </figure>
 
-            <div class="p-5 flex flex-col">
+            <div className="p-5 flex flex-col">
               <div className="flex gap-2 pb-3">
-                <div class="badge rounded-full text-[#0069A8] bg-[#DFF2FE]">
+                <div className="badge rounded-full text-[#0069A8] bg-[#DFF2FE]">
                   WordPress
                 </div>
-                <div class="badge rounded-full text-[#BB4D00] bg-[#FEF3C6]">
+                <div className="badge rounded-full text-[#BB4D00] bg-[#FEF3C6]">
                   Intermediate
                 </div>
               </div>
 
-              <h2 class=" font-bold leading-5.5 text-textColor pb-2">
+              <h2 className=" font-bold leading-5.5 text-textColor pb-2">
                 Dynamic Websites with ACF
               </h2>
               <p className="text-sm text-textColor2 leading-[22.75px] pb-4">
@@ -152,7 +152,7 @@ export default function SectionThree() {
             </div>
           </div>
 
-          <div class="card bg-white shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A] rounded-[14px]">
+          <div className="card bg-white shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A] rounded-[14px]">
             <figure>
               <img
                 src={course1}
@@ -161,17 +161,17 @@ export default function SectionThree() {
               />
             </figure>
 
-            <div class="p-5 flex flex-col">
+            <div className="p-5 flex flex-col">
               <div className="flex gap-2 pb-3">
-                <div class="badge rounded-full text-[#0069A8] bg-[#DFF2FE]">
+                <div className="badge rounded-full text-[#0069A8] bg-[#DFF2FE]">
                   WordPress
                 </div>
-                <div class="badge rounded-full text-[#008236] bg-[#dcfce7]">
+                <div className="badge rounded-full text-[#008236] bg-[#dcfce7]">
                   Beginner
                 </div>
               </div>
 
-              <h2 class=" font-bold leading-5.5 text-textColor pb-2">
+              <h2 className=" font-bold leading-5.5 text-textColor pb-2">
                 Frontend Development Fundamentals
               </h2>
               <p className="text-sm text-textColor2 leading-[22.75px] pb-4">
