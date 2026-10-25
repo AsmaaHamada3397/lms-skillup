@@ -8,7 +8,7 @@ export default function SectionSix() {
       <div
         className={`${containerStyle} py-16 lg:py-20 flex flex-col items-center justify-center`}
       >
-        <p className="font-extrabold text-[30px] leading-[37.5px] lg:text-[36px] lg:leading-11.25 text-white">
+        <p className="font-extrabold text-[30px] leading-[37.5px] lg:text-[36px] lg:leading-11.25 text-white text-center ">
           Ready to Start Learning?
         </p>
 

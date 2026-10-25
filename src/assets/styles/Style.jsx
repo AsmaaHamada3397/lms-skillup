@@ -1,1 +1,1 @@
-export const containerStyle = "container px-8 ";
+export const containerStyle = "container px-4 lg:px-8 ";
