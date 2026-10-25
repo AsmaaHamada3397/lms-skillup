@@ -14,7 +14,7 @@ export default function SectionFour() {
           Why Learn With Us
         </p>
 
-        <p className="leading-6.5 text-textColor2 pt-3  max-w-98.5 md:text-center md:w-xl">
+        <p className="leading-6.5 text-textColor2 pt-3  w-98.5 md:text-center md:w-xl">
           Everything we build is designed around one goal — helping you get
           results you can use.
         </p>
