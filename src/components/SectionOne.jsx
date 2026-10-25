@@ -11,7 +11,7 @@ export default function SectionOne() {
   return (
     <div className="flex justify-center items-center">
       <div className={`${containerStyle} py-24`}>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between flex-col md:flex-row gap-12 lg:gap-0">
           <div className="">
             <div className="flex items-center justify-center gap-2 rounded-full px-3 py-1.5 bg-[#EEF2FF] border-[0.69px] border-[#e0e7ff] w-fit">
               <FaStar className="text-colorPrimary text-[10px]" />
@@ -20,7 +20,7 @@ export default function SectionOne() {
               </p>
             </div>
 
-            <h1 className="text-textColor font-extrabold text-[52px] leading-[58.24px] tracking-[-1.3px] max-w-136.25 pt-[23px]">
+            <h1 className="text-textColor font-extrabold text-[40px] lg:text-[52px] leading-10 lg:leading-[58.24px] tracking-[-1px] lg:tracking-[-1.3px] lg:max-w-136.25 pt-5.75">
               Learn Skills That Move Your Career Forward
             </h1>
 
@@ -29,7 +29,7 @@ export default function SectionOne() {
               instructors and designed around real-world projects.
             </p>
 
-            <div className="pt-8 flex gap-3 items-center">
+            <div className="pt-8 flex gap-3 flex-col md:flex-row items-start md:items-center">
               <button className="flex gap-2 items-center text-white bg-colorPrimary rounded-[10px] px-6 py-3 cursor-pointer">
                 Explore Courses <FaArrowRight />
               </button>

@@ -17,9 +17,9 @@ export default function SectionTwo() {
           Browse by Category
         </span>
 
-        <div className="flex gap-3 pt-7">
+        <div className="flex gap-3 pt-7 flex-wrap justify-center">
           <div className="flex justify-between items-center gap-2 px-4 py-2.5 bg-[#F5F3FF] border-[0.69px] border-[#ede9fe] rounded-full">
-            <IoIosCode className="text-[#7F22FE] " />
+            <IoIosCode className="text-[#7F22FE] text-[12px] md:text-[16px]" />
             <p className="font-semibold text-sm leading-5 text-[#7F22FE]">
               Frontend
             </p>
@@ -28,7 +28,7 @@ export default function SectionTwo() {
           </div>
 
           <div className="flex justify-between items-center gap-2 px-4 py-2.5 bg-[#F0f9FF] border-[0.69px] border-[#DFF2FE] rounded-full">
-            <RiGlobalLine className="text-[#0084D1] " />
+            <RiGlobalLine className="text-[#0084D1] text-[12px] md:text-[16px]" />
             <p className="font-semibold text-sm leading-5 text-[#0084D1]">
               WordPress
             </p>
@@ -37,7 +37,7 @@ export default function SectionTwo() {
           </div>
 
             <div className="flex justify-between items-center gap-2 px-4 py-2.5 bg-[#FFF7ED] border-[0.69px] border-[#FFEDD4] rounded-full">
-            <RxPeople className="text-[#F54900]" />
+            <RxPeople className="text-[#F54900] text-[12px] md:text-[16px]"  />
             <p className="font-semibold text-sm leading-5 text-[#F54900]">
               Leadership
             </p>
@@ -47,7 +47,7 @@ export default function SectionTwo() {
 
 
            <div className="flex justify-between items-center gap-2 px-4 py-2.5 bg-[#ECFDF5] border-[0.69px] border-[#D0FAE5] rounded-full">
-            <img src={bag} className="w-5" alt="" />
+            <img src={bag} className="w-3 md:w-5" alt="" />
             <p className="font-semibold text-sm leading-5 text-[#009966]">
               Entrepreneurship
             </p>
@@ -56,7 +56,7 @@ export default function SectionTwo() {
           </div>
 
            <div className="flex justify-between items-center gap-2 px-4 py-2.5 bg-[#EEF2FF] border-[0.69px] border-[#E0E7FF] rounded-full">
-            <SlEnergy className="text-primary" />
+            <SlEnergy className="text-primary text-[12px] md:text-[16px]" />
             <p className="font-semibold text-sm leading-5 text-colorPrimary">
               Backend
             </p>

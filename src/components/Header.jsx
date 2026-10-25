@@ -1,8 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { containerStyle } from "../assets/styles/Style";
-
-
+import { IoMenuSharp } from "react-icons/io5";
 
 export default function Header() {
   return (
@@ -17,7 +16,7 @@ export default function Header() {
             <h1 className="font-bold text-[20px] leading-7">SkillUp <span className="text-colorPrimary">Academy</span></h1>
           </div>
           {/* links */}
-          <nav className="flex gap-7">
+          <nav className="gap-7 hidden lg:flex">
             <a className="navItems" href="">Home</a>
             <a className="navItems" href="">Courses</a>
             <a className="navItems" href="">Instructors</a>
@@ -27,8 +26,10 @@ export default function Header() {
           
           {/* buttons */}
           <div>
-            <button className="font-semibold text-sm leading-5 bg-colorPrimary text-white px-5 py-2.5 rounded-[10px]">Explore Courses</button>
+            <button className="font-semibold text-sm leading-5 bg-colorPrimary text-white px-5 py-2.5 rounded-[10px] hidden lg:block">Explore Courses</button>
           </div>
+
+          <IoMenuSharp className="lg:hidden" />
         </div>
       </div>
     </div>
