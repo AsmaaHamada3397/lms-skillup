@@ -29,7 +29,7 @@ export default function Header() {
             <button className="font-semibold text-sm leading-5 bg-colorPrimary text-white px-5 py-2.5 rounded-[10px] hidden lg:block">Explore Courses</button>
           </div>
 
-          <IoMenuSharp className="lg:hidden" />
+          <IoMenuSharp className="lg:hidden text-2xl text-[#45556C]" />
         </div>
       </div>
     </div>

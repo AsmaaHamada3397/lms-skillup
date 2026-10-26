@@ -52,7 +52,7 @@ export default function Footer() {
             <p className="text-white font-bold text-xs leading-4 tracking-[1.2px] uppercase">
               Quick Links
             </p>
-            <ul className="pt-5">
+            <ul className="pt-5 flex flex-col gap-3.5">
               <li>
                 <a
                   href="#"
@@ -64,7 +64,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className=" text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   Courses
                 </a>
@@ -72,7 +72,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className=" text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   Instructors
                 </a>
@@ -80,7 +80,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className=" text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   About Us
                 </a>
@@ -88,7 +88,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className=" text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   Contact
                 </a>
@@ -100,11 +100,11 @@ export default function Footer() {
             <p className="text-white font-bold text-xs leading-4 tracking-[1.2px] uppercase">
               Categories
             </p>
-            <ul className="pt-5">
+            <ul className="pt-5 flex flex-col gap-3.5">
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className=" text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   Frontend
                 </a>
@@ -112,7 +112,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className=" text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   WordPress
                 </a>
@@ -120,7 +120,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className="text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   Backend
                 </a>
@@ -128,7 +128,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className=" text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   Leadership
                 </a>
@@ -136,7 +136,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="pt-3 text-[#90A1B9] text-sm leading-5 font-medium"
+                  className="text-[#90A1B9] text-sm leading-5 font-medium"
                 >
                   Entrepreneurship
                 </a>
@@ -164,7 +164,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t-[0.67px] border-[#1D293D] flex justify-between w-full pt-6">
+        <div className="mt-12 border-t-[0.67px] border-[#1D293D] flex flex-col gap-3  md:flex-row justify-between items-center w-full pt-6">
           <p className="text-xs leading-4 text-[#45556c]">
             © 2026 SkillUp Academy. All rights reserved.
           </p>
